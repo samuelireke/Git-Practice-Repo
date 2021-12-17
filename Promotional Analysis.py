@@ -25,9 +25,10 @@
 
 # In[1]:
 
-
-import plotly.express as px
-#from fbprophet import Prophet
+###############################START OF EDIT ######################################
+import plotly.express as px # import plotly
+#from fbprophet import Prophet #Uncomment to use fbprophet
+################################END OF EDIT #########################################
 from sklearn.metrics import mean_squared_error
 from math import sqrt
 from statsmodels.distributions.empirical_distribution import ECDF
